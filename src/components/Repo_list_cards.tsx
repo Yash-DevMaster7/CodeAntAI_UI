@@ -18,11 +18,11 @@ const Repo_list_cards: React.FC<Repo_list_cardsProps> = ({
   return (
     <div className="border-t border-gray-200 h-24 md:h-1/6 hover:bg-gray-50">
       <div className="w-full md:w-3/6 lg:w-96 h-full ">
-        <div className="w-64 h-2/5 lg:h-1/2 flex justify-start mt-2 md:mt-1 ">
+        <div className="w-64 h-2/5 lg:h-1/2 flex justify-start mt-2 md:mt-1">
           <h1 className="flex flex-col justify-center font-medium text-base pr-2 ml-4 hover:underline cursor-pointer">
             {repoName}
           </h1>
-          <button className="rounded-3xl h-2/5 md:h-1/2 mt-3 text-xs px-2 bg-blue-50 text-blue-600 border border-blue-600">
+          <button className="rounded-3xl h-1/2 md:h-3/5 lg:h-1/2 mt-3 md:mt-1 lg:mt-3 text-xs px-2 bg-blue-50 text-blue-600 border border-blue-600">
             {repoType}
           </button>
         </div>
